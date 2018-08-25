@@ -1,0 +1,157 @@
+
+
+	/*ELEMENTOS QUE VAN A CAMBIAR EN MOVIL*/
+	
+#navegacionmovil{
+		
+	float: left; 
+	width:10%; 
+	display: none;
+		
+}
+	
+#logotipo{
+	
+	float: left; 
+	width:90%;
+	
+}
+
+#logotipo>img{
+	
+	display:block;
+	margin: 5px 10px;
+	height: 40px;
+	
+}
+
+#textoenimagen{
+	
+	top:-250px; 
+}
+
+#subtituloseccion2 {
+	
+	 font-size: 18px; 
+}
+
+#menudeplanes{
+	
+    margin: 50px 0px 0px 50px;
+}
+
+#plan1{
+	
+	width:25%;
+}
+
+#plan2{
+	
+	width:25%;
+}
+
+#plan3{
+	
+	width:25%;
+}
+
+#plan4{
+	
+	width:25%;
+}
+
+#evento1{
+	
+	width: 23%;
+}
+#evento2{
+	
+	width: 23%;
+}
+#evento3{
+	
+	width: 23%;
+}
+#evento4{
+	
+	width: 23%;
+}
+
+
+	/*CAMBIOS PARA LA VERSION MOVIL*/
+	
+@media only screen and (max-width: 600px) {
+		
+   	#navegacionmovil {
+		
+        display: block;
+    }
+		
+	#logotipo{
+		
+		width: 80%;
+	}
+	
+	#logotipo>img{
+		
+		display:block;
+		margin: 5px auto;
+		height:50px;
+	
+	}
+	
+	#textoenimagen{
+	
+		top:-350px; 
+		
+	}
+	
+	#subtituloseccion2 {
+	
+	 font-size: 14px; 
+	}
+	
+	#plan1{
+	
+		width:50%;
+	}
+	
+	#plan2{
+	
+		width:50%;
+	}
+	
+	#plan3{
+	
+		width:50%;
+	}
+	
+	#plan4{
+	
+		width:50%;
+	}
+	
+	#menudeplanes{
+	
+    	margin: 0px;
+	}
+	
+	#evento1{
+	
+		width: 48%;
+	}
+	#evento2{
+	
+		width: 48%;
+	}
+	#evento3{
+	
+		width: 48%;
+	}
+	#evento4{
+	
+		width: 48%;
+	}
+
+	
+}
